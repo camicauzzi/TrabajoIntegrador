@@ -25,11 +25,10 @@
     </header>
     
     <main class="container mt-5">
-
         <div class="text-center p-5">
             <h2>Ropa para Mujeres</h2>
         </div>
-
+    
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -37,17 +36,52 @@
                     <div class="card-body">
                         <h5 class="card-title">Sweater de hilo</h5>
                         <p class="card-text">Sweaters de punto con cuello alto, con diseño de trenzas.</p>
-                        <a class="btn btn-dark">Mas</a>
+                        <!-- acordeon -->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button btn btn-dark" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Más detalles
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>$50.000</strong> Talles Disponibles S- M - L- XL Colores: Blanco, Azul, Marrón.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- acordeon -->
                     </div>
                 </div>
             </div>
+    
             <div class="col-md-4">
                 <div class="card">
                     <img src="./img/ropa-mujer-2.jpg" class="card-img-top" alt="Producto">
                     <div class="card-body">
                         <h5 class="card-title">Top sin mangas</h5>
                         <p class="card-text">Tops sin mangas de canalé, sencillo y ajustado, con un cuello redondo alto y corte recto en la parte inferior. </p>
-                        <a class="btn btn-dark">Mas</a>
+                        <!-- acordeon -->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button btn btn-dark" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                        Más detalles
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>$20.000</strong> Talles Disponibles S- M - L- XL Colores: Blanco, Negro, Naranja, Beige
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- acordeon -->
                     </div>
                 </div>
             </div>
@@ -57,8 +91,25 @@
                     <div class="card-body">
                         <h5 class="card-title">Short Lino Negro</h5>
                         <p class="card-text">Shorts negros elegantes de talle alto con pliegues frontales y bolsillos laterales. Los shorts tienen un cierre con un botón dorado.</p>
-                        <a class="btn btn-dark">Mas</a>
-                    </div>
+                        <!-- acordeon -->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button btn btn-dark" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                        Más detalles
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>$60.000</strong> Talles Disponibles S- M - L- XL Colores: Negro
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- acordeon -->
+                    </div> 
+                    
                 </div>
             </div>
         </div>
@@ -71,7 +122,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="../js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
 
