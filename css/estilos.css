@@ -2,32 +2,33 @@ body {
     background-color: #f8f9fa;
     color: #333;
 }
+
 .navbar, .footer {
     background-color: #000;
     color: #fff;
 }
+
 .navbar-brand, .nav-link {
     color: #fff !important;
 }
+
 .nav-link:hover {
     color: #ccc !important;
 }
+
 .card {
     border: none;
     margin-bottom: 30px;
 }
-/*.card img {
-    filter: grayscale(100%);
-}*/
+
 .card-body {
     background-color: #fff;
     border: 1px solid #ddd;
 }
-h2 {
-    margin-top: 50px;
-}
+
 
 .footer {
     padding: 20px 0;
     text-align: center;
 }
+
