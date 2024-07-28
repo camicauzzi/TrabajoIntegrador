@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Vanguardia</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .navbar, .footer {
+            background-color: #000;
+            color: #fff;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .nav-link:hover {
+            color: #ccc !important;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 60px 0;
+        }
+        .card {
+            border: none;
+            margin-bottom: 30px;
+        }
+        /*.card img {
+            filter: grayscale(100%);
+        }*/
+        .card-body {
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        h2 {
+            margin-top: 50px;
+        }
+        .carousel-item img {
+            filter: grayscale(100%);
+        }
+        .footer {
+            padding: 20px 0;
+            text-align: center;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: #000;
+         }
+
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">La Vanguardia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="categoriashombres.html">Hombres</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="categoriasmujeres.html">Mujeres</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+
+    <header class="text-center">
+        <h1>La Vanguardia</h1>
+    </header>
+    
+    <main id="contacto" class="container my-5">
+      <form
+        id="contactForm"
+        novalidate
+        action="https://formspree.io/f/xgvwoqgw"
+        method="POST"
+      >
+        <fieldset class="container-md mx-auto">
+          <legend class="h1">Contáctanos</legend>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              name="name"
+              placeholder="Tu nombre"
+              required
+              pattern="^[a-zA-Z]+$"
+            />
+            <p class="invalid-feedback">
+              Por favor, introduce un nombre válido (solo letras, sin espacios).
+            </p>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo Electrónico</label>
+            <input
+              type="email"
+              class="form-control"
+              id="correo"
+              name="email"
+              placeholder="tu@correo.com"
+              required
+            />
+            <p class="invalid-feedback">
+              Por favor, introduce un correo electrónico válido.
+            </p>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              name="message"
+              rows="3"
+              placeholder="Escribe tu mensaje"
+              required
+              minlength="3"
+            ></textarea>
+            <p class="invalid-feedback">
+              Por favor, introduce un mensaje de al menos 3 caracteres.
+            </p>
+          </div>
+          <button type="submit" class="btn btn-dark btn-md">Enviar</button>
+        </fieldset>
+      </form>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script-validacion-form.js"></script>
+    
+</body>
+</html>
