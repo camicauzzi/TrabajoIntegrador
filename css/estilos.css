@@ -2,32 +2,62 @@ body {
     background-color: #f8f9fa;
     color: #333;
 }
+
 .navbar, .footer {
     background-color: #000;
     color: #fff;
 }
+
 .navbar-brand, .nav-link {
     color: #fff !important;
 }
+
 .nav-link:hover {
     color: #ccc !important;
 }
+
 .card {
     border: none;
     margin-bottom: 30px;
 }
-/*.card img {
-    filter: grayscale(100%);
-}*/
+
 .card-body {
     background-color: #fff;
     border: 1px solid #ddd;
 }
-h2 {
-    margin-top: 50px;
+
+.overlay {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+.card:hover .overlay {
+    opacity: 0.9;
 }
 
 .footer {
     padding: 20px 0;
     text-align: center;
 }
+
+#main-title{
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+
+/*Ajuste de tamaño de imagen en carrusel*/
+
+#carouselExampleIndicators {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+background-color: #000;
+ }
