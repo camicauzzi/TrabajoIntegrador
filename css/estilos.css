@@ -45,6 +45,10 @@ body {
     padding: 60px 0;
 }
 
+form{
+    height: 70vh;
+}
+
 /*Ajuste de tamaño de imagen en carrusel*/
 
 #carouselExampleIndicators {
@@ -59,5 +63,5 @@ body {
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-background-color: #000;
+    background-color: #000;
  }
