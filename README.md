@@ -1,7 +1,7 @@
 # Trabajo Integrador
 
 ## Hola Somos Carlos, Magalí, Camila y Valeria 
-### Estamos realizando el curso de Full Stack Developer brindado por el Centro de Formación Cilsa cuyo objetivo es brindar herramientas para mejorar las condiciones de empleabilidad y prepararse para el mundo del trabajo.  En esta oportunidad desarrollamos un sitio web de una tienda online como parte del Trabajo Integrador.
+### Estamos realizando el curso de Full Stack Developer brindado por el Centro de Formación Cilsa cuyo objetivo es brindar herramientas para mejorar las condiciones de empleabilidad y prepararse para el mundo del trabajo.  En esta oportunidad desarrollamos un sitio web de una tienda online como parte del Trabajo Integrador. El link de acceso al mismo es el siguiente: https://tpintegradorcilsa.netlify.app/
 
 > #### El sitio desarrollado es de una tienda de ropa y cuenta con dos categorías:
 >
